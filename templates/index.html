@@ -20,7 +20,7 @@
     <div class="overlay">
         <div class="spinner-border text-primary" role="status"><span class="sr-only">Loading...</span></div>
     </div>
-    <h2> ReviewQA </h2>
+    <h2> Review-Based Question Answering </h2>
     <div class="row">
         <div class="col-sm-1"></div>
 
@@ -54,22 +54,32 @@
             <h4> Answers </h4>
             <div class="form-row">
                 <div class="form-group col-md-6">
-                    <label for="text_paragraphs">First</label>
-                    <textarea class="form-control txt_response" id="first" readonly> </textarea>
+                    <label for="bm25">BM25</label>
+                    <textarea class="form-control txt_response" id="bm25" readonly> </textarea>
                 </div>
                 <div class="form-group col-md-6">
-                    <label for="text_paragraphs">Random</label>
-                    <textarea class="form-control txt_response" id="random" readonly> </textarea>
+                    <label for="tfidf">TF-IDF</label>
+                    <textarea class="form-control txt_response" id="tfidf" readonly> </textarea>
                 </div>
             </div>
             <div class="form-row">
                 <div class="form-group col-md-6">
-                    <label for="text_paragraphs">BERT</label>
-                    <textarea class="form-control txt_response" id="bert" readonly> </textarea>
+                    <label for="doc2vec">Doc2Vec</label>
+                    <textarea class="form-control txt_response" id="doc2vec" readonly> </textarea>
                 </div>
                 <div class="form-group col-md-6">
-                    <label for="text_paragraphs">BART</label>
-                    <textarea class="form-control txt_response" id="bart" readonly> </textarea>
+                    <label for="sbert">S-BERT</label>
+                    <textarea class="form-control txt_response" id="sbert" readonly> </textarea>
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="stbart">BART</label>
+                    <textarea class="form-control txt_response" id="stbart" readonly> </textarea>
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="mtbart">MT-BART</label>
+                    <textarea class="form-control txt_response" id="mtbart" readonly> </textarea>
                 </div>
             </div>
 
