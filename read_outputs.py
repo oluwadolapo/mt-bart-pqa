@@ -22,7 +22,9 @@ def main():
     print()
     print(questions[idx])
     print()
-    print(pred_answers[idx])
+    print(pred_answers[idx].split(".")[0].strip() + ".")
+    print()
+    print(ref_answers[idx])
 
 if __name__ == "__main__":
     main()

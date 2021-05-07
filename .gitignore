@@ -1,20 +1,6 @@
-.gitignore
-
 __pycache__
-answerability-classifier/__pycache__
-review-summarizer/__pycache__
-
 wandb
 .vector_cache
 
-output_first.json
-output_random.json
-output_bert.json
-output_bart.json
-output_bart-single.json
-
-
 test.py
-
-gupta_summarizer.py
-summarizer/gupta
+saved_models
