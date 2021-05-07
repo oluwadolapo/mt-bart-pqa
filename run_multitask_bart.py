@@ -281,7 +281,7 @@ def main():
     elif args.exp_type == "test_generator":
         model = BartGenerator(args.load_bart_path, device)
         df = pd.read_json(args.generator_data_path, orient='split')
-        df = df.head(5)
+        # df = df.head(5)
         #df = df[:1]
         quest_rev, ref_answers = prepare_generator_test_data(df)
         print()
