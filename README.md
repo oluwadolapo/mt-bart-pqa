@@ -1,6 +1,6 @@
-# reviewQA
+# review-based-Question-Answering
 
-### Dependency
+#### Dependency
 ```
 torch==1.6.0
 torchtext==0.7.0
@@ -8,7 +8,6 @@ transformers==3.1.0
 tokenizers==0.8.1rc2
 ```
 
-### Commands
 #### Train LSTM for answerability verification from scratch
 ```
 python run_answerability_verifier.py --model_type lstm --data_path /home/oluwadolapo/Datasets --train_file_name amazonQAnswerability_test.jsonl --val_file_name amazonQAnswerability_test.jsonl --test_file_name amazonQAnswerability_test.jsonl --save_model_path /home/oluwadolapo/Experiments/bertQAnswerability/rnn/model_save --save_emb_path /home/oluwadolapo/Experiments/bertQAnswerability/rnn/trained_embeddings.txt --save_voc_path /home/oluwadolapo/Experiments/bertQAnswerability/rnn/vocab.tsv --num_train_epochs 1 --train_batch_size 32 --predict_batch_size 32 --from_scratch
