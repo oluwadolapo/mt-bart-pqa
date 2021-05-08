@@ -1,7 +1,7 @@
 ## Review-based Product Question Answering
 
 #### Brief Intro
-This repo contains the code for abstractive product question answering using BART and Multi-task BART. Subsets of the datasets provided by [Gupta et al. (2019)](https://arxiv.org/abs/1908.04364) were used to train and evaluate the models for answerability verification and answer generation. LSTM and CNN were used as baselines for answerability verification while BM25, TF-IDF, Doc2Vec and S-BERT were used as extractive baselines for answer generation. The screenshots below show multi-task bart had a superior performance by providing accurate and detailed answers to questions.
+This repo contains the code for abstractive product question answering using BART and Multi-task BART. Subsets of the datasets provided by [Gupta et al. (2019)](https://arxiv.org/abs/1908.04364) were used to train and evaluate the models for answerability verification and answer generation. LSTM and CNN were used as baselines for answerability verification while BM25, TF-IDF, Doc2Vec and S-BERT were used as extractive baselines for answer generation. The screenshots below show multi-task BART had a superior performance by providing accurate and detailed answers to questions.
 
 ##### N.B: Work still under review for publication
 
