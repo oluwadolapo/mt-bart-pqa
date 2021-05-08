@@ -5,11 +5,11 @@ This repo demonstrates how pytorch-forecasting (a python library that uses deep 
 * [Official tutorial code](https://pytorch-forecasting.readthedocs.io/en/latest/tutorials/stallion.html) was adapted for forecasting.
 * [This dash template](https://github.com/STATWORX/blog/tree/master/DashApp) was adapted for the dashboard.
 
-![ddd](screenshots/screenshot1.png)
-![ddd](screenshots/screenshot2.png)
-![ddd](screenshots/screenshot3.png)
-![ddd](screenshots/screenshot4.png)
-![ddd](screenshots/screenshot5.png)
+![ddd](screenshots/Screenshot1.png)
+![ddd](screenshots/Screenshot2.png)
+![ddd](screenshots/Screenshot3.png)
+![ddd](screenshots/Screenshot4.png)
+![ddd](screenshots/Screenshot5.png)
 
 #### Dependency
 ```
