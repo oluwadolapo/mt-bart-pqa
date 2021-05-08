@@ -1,9 +1,7 @@
-## Review-based Question Answering
+## Review-based Product Question Answering
 
 #### Brief Intro
-This repo demonstrates how pytorch-forecasting (a python library that uses deep learning for time series forecasting) can be combined with Dash (a python library for creating reactive, web-based apps) to build a full-stack predictive analytics application. The [stallion dataset](https://www.kaggle.com/utathya/future-volume-prediction) for SKU future volume analysis and prediction is used as a case study.
-* [Official tutorial code](https://pytorch-forecasting.readthedocs.io/en/latest/tutorials/stallion.html) was adapted for forecasting.
-* [This dash template](https://github.com/STATWORX/blog/tree/master/DashApp) was adapted for the dashboard.
+This repo contains the code for abstractive product question answering using BART and Multi-task BART. Subsets of the datasets provided by [Gupta et al. (2019)](https://arxiv.org/abs/1908.04364) were used to train and evaluate the models for answerability verification and answer generation. LSTM and CNN were used as baselines for answerability verification while BM25, TF-IDF, Doc2Vec and S-BERT were used as extractive baselines for answer generation. 
 
 ![ddd](screenshots/Screenshot1.png)
 ![ddd](screenshots/Screenshot2.png)
